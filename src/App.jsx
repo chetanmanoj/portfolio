@@ -1,14 +1,12 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import NavBar from "./components/NavBar"
+
 
 function App() {
   
 
   return (
-    <div className='h-screen w-screen bg-red-300'>
-
+    <div className='h-screen w-screen bg-gray-900'> 
+     <NavBar/>
     </div>
   )
 }
