@@ -7,13 +7,16 @@ function App() {
   
 
   return (
-    <div className='h-screen w-screen bg-[#091b29]'> 
+    // <div>
+    <div className='h-full w-full bg-[#091b29]'> 
      <NavBar/>
-     <div className="flex justify-center items-center">
+     <div className="flex flex-col justify-center items-center">
      <About/>
-     </div>
      <Contact/>
+     </div>
     </div>
+    
+    //  </div> 
   )
 }
 
