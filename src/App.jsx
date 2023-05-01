@@ -1,7 +1,11 @@
 import NavBar from "./components/NavBar"
 
 import About from "./sections/About"
+import RealAbout from "./sections/RealAbout"
+import Skills from "./sections/Skills"
+import Works from "./sections/Works"
 import Contact from "./sections/Contact"
+
 
 function App() {
   
@@ -12,6 +16,9 @@ function App() {
      <NavBar/>
      <div className="flex flex-col justify-center items-center">
      <About/>
+     <RealAbout/>
+     <Skills/>
+     <Works/>
      <Contact/>
      </div>
     </div>
