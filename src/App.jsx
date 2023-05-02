@@ -1,30 +1,17 @@
-import NavBar from "./components/NavBar"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import About from "./sections/About"
-import RealAbout from "./sections/RealAbout"
-import Skills from "./sections/Skills"
-import Works from "./sections/Works"
-import Contact from "./sections/Contact"
-
+import Compile from "./Compile";
 
 function App() {
-  
-
   return (
-    // <div>
-    <div className='h-full w-full bg-[#091b29]'> 
-     <NavBar/>
-     <div className="flex flex-col justify-center items-center">
-     <About/>
-     <RealAbout/>
-     <Skills/>
-     <Works/>
-     <Contact/>
-     </div>
-    </div>
-    
-    //  </div> 
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Compile />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

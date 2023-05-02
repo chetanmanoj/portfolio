@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedinIn, FaEnvelope} from 'react-icons/fa'
 const About = () => {
 
   const headlines = ['COMPUTER SCIENCE ENGINEER', 'WEB DEVELOPER']
-  
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const[currentHead,setCurrentHead] = useState(headlines[currentIndex])
   
@@ -24,8 +24,8 @@ const About = () => {
   return (
     <motion.section 
 
-    // id='about' 
-    className='bg-transparent w-10/12 flex h-[37.5rem] mt-8 mb-16'
+    id='home' 
+    className='bg-transparent w-10/12 flex h-[37.5rem] mt-[6.1rem] mb-16'
     initial={{opacity:0, x:-150}}
     animate={{opacity:1, x:0}}
     transition={{duration:1}}

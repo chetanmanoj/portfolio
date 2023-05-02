@@ -9,27 +9,24 @@ const NavBar = () => {
   const[active, setActive] = useState('')
   
   return (
-    <motion.div className='bg-transparent h-[80px] rounded-b-[35px] text-[19px] flex flex-row items-center justify-between'
+    <motion.div className='bg-transparent w-screen fixed h-[80px] mb-24 rounded-b-[35px] text-[19px] flex flex-row items-center justify-between'
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{duration:1}}
     >
-      {/* <Link
+      <Link
           to='/'
-          // className='flex items-center gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-        > */}
+        >
       <button className='flex justify-start items-start ml-12'
-       onClick={() => {
-        setActive("");
-        window.scrollTo(0, 0);
-      }}>
-        f
+     
+      >
+      CHET
       </button>
-      {/* </Link> */}
+      </Link>
       
      <ul className='list-none flex justify-end text-white items-end flex-row gap-[40px] mr-12'>
      {navLinks.map((nav) => (
