@@ -16,3 +16,21 @@ export const navLinks = [
         title:"Contact"
     },
 ]
+
+export const cardData = [
+    {
+        header:'yo',
+        title:'nigesh',
+        items:['Bro','Homie'],
+    },
+    {
+        header:'help',
+        title:'nigesh',
+        items:['Bro','Homie'],
+    },
+    {
+        header:'hey',
+        title:'nigesh',
+        items:['Bro','Homie'],
+    },
+]
