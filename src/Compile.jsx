@@ -13,9 +13,9 @@ function Compile() {
       <div className="flex flex-col justify-center items-center">
         <About />
         <RealAbout />
-        {/* <Skills /> */}
+        <Skills />
         <Works />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </div>
   );

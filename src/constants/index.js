@@ -1,3 +1,10 @@
+import {
+    designIcon
+}
+from "../assets"
+
+
+
 export const navLinks = [
     {
         id:"about",
@@ -19,18 +26,28 @@ export const navLinks = [
 
 export const cardData = [
     {
-        header:'yo',
-        title:'nigesh',
-        items:['Bro','Homie'],
+        titleIcon: designIcon,
+        title:'PROGRAMMING LANGUAGES',
+        items:['C','Python','Javascript']
     },
     {
-        header:'help',
-        title:'nigesh',
-        items:['Bro','Homie'],
+        titleIcon: designIcon,
+        title:'DESIGN',
+        items:['Figma','Canva']
     },
     {
-        header:'hey',
-        title:'nigesh',
-        items:['Bro','Homie'],
+        titleIcon: designIcon,
+        title:'FRONT-END DEVELOPMENT',
+        items:['React','React Native','']
+    },
+    {
+        titleIcon: designIcon,
+        title:'BACK-END DEVELOPMENT',
+        items:['ExpressJS','MongoDB']
+    },
+    {
+        titleIcon: designIcon,
+        title:'TOOLS AND SERVICES',
+        items:['Git','Linux', 'Amazon web services','Firebase']
     },
 ]

@@ -27,7 +27,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    
+
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -43,7 +43,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you for contacting us. We will get back to you as soon as possible.");
+          // alert("Thank you for contacting us. We will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -55,7 +55,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, Something went wrong. Please try again.");
+          alert("Something went wrong. Please try again.");
         }
       );
   };
@@ -108,7 +108,6 @@ const Contact = () => {
         type='submit'
 
         >
-        {/* SUBMIT */}
         {loading ? "Sending..." : "Send"}
         </motion.button>
           
