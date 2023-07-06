@@ -7,14 +7,18 @@ import {
   js,
   canva,
   figma,
+  node,
   mongodb,
   react,
+  reactn,
   html,
   css,
   tailwind,
   sass,
   git,
   linux,
+  aws,
+  firebase
 } from "../assets";
 
 export const navLinks = [
@@ -52,19 +56,19 @@ export const cardData = [
   {
     titleIcon: designIcon,
     title: "FRONT-END DEVELOPMENT",
-    itemIcon: [html, css, tailwind, sass, react],
+    itemIcon: [html, css, tailwind, sass, react,reactn],
     items: ["HTML", "CSS", "Tailwind CSS", "SASS", "React", "React Native"],
   },
   {
     titleIcon: backendIcon,
     title: "BACK-END DEVELOPMENT",
-    itemIcon: [mongodb],
-    items: ["ExpressJS", "MongoDB"],
+    itemIcon: [node,mongodb],
+    items: ["Node js", "MongoDB"],
   },
   {
     titleIcon: designIcon,
     title: "TOOLS AND SERVICES",
-    itemIcon: [git,linux],
+    itemIcon: [git,linux,aws,firebase],
     items: ["Git", "Linux", "Amazon web services", "Firebase"],
   },
 ];
