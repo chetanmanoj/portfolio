@@ -37,10 +37,10 @@ export const navLinks = [
     id: "works",
     title: "Works",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 export const cardData = [
