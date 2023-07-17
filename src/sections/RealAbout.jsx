@@ -33,7 +33,7 @@ const RealAbout = () => {
     return (
       <section
         id="about"
-        className="h-full flex w-10/12 items-center justify-center"
+        className="h-full flex w-10/12 items-center justify-center mb-16"
       >
         <div className="flex flex-col items-center justify-center">
           <span className="text-[3.5rem] font-bold text-[#65f5ff]">ABOUT ME</span>
@@ -47,9 +47,9 @@ const RealAbout = () => {
               I value the unique visions of my clients and strive to translate them into digital realities 
               and work hard in collaborating with my team mates to deliver the best output.
             </p>
-            <div className="flex flex-1">
+            {/* <div className="flex flex-1">
               fdasf
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

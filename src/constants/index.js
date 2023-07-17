@@ -33,14 +33,14 @@ export const navLinks = [
     id: "skills",
     title: "Skills",
   },
-  {
-    id: "works",
-    title: "Works",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "works",
+  //   title: "Works",
+  // },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 export const cardData = [

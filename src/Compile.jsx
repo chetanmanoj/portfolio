@@ -14,7 +14,7 @@ function Compile() {
         <About />
         <RealAbout />
         <Skills />
-        <Works />
+        {/* <Works /> */}
         {/* <Contact /> */}
       </div>
     </div>

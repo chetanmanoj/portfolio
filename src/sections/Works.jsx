@@ -8,6 +8,7 @@ const Works = () => {
     >
         <div className="flex flex-col items-center justify-center">
         <span className="text-[3.5rem] font-bold text-[#65f5ff]">WORKS</span>
+        
         </div>
     </section>
   )

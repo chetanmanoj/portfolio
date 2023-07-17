@@ -9,7 +9,7 @@ const NavBar = () => {
   const[active, setActive] = useState('')
   
   return (
-    <motion.div className='bg-transparent w-screen fixed h-[80px] mb-24 rounded-b-[35px] text-[19px] flex flex-row items-center justify-between'
+    <motion.div className='bg-[#091b29] w-screen fixed h-[80px]  rounded-b-[35px] text-[19px] flex flex-row items-center justify-between'
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{duration:1}}
