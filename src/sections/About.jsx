@@ -31,10 +31,10 @@ const About = () => {
     transition={{duration:1}}
     >
         <div className='flex flex-1 items-center justify-center flex-col'>
-            <span className='text-[4.68rem] text-white font-bold'>CHETAN MANOJ</span>
+            <span className='text-[4.68rem] text-white text-center font-bold'>CHETAN MANOJ</span>
             <motion.span 
 
-            className='text-[#65f5ff] text-[2.8rem]'>
+            className='text-[#65f5ff] text-center text-[2.8rem]'>
               {currentHead}</motion.span>
             <a onClick={()=>window.open('https://drive.google.com/file/d/1ajd4MBXQUU0-XF-AzeX3_HwDz5_ZLyhC/view?usp=share_link')}
             className='mt-24'
