@@ -9,7 +9,7 @@ const RealAbout = () => {
   return (
     <section
       id="about"
-      className="h-full flex w-10/12 items-center justify-center"
+      className="h-full flex w-10/12 items-center justify-center mb-12"
     >
       <div className="flex flex-col items-center justify-center ">
         <span className="text-[3.5rem] font-bold text-[#65f5ff]">ABOUT ME</span>

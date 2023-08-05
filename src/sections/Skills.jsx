@@ -13,7 +13,7 @@ const Card = (
   })
   if(isMobile){
     return(
-      <div className='flex flex-col items-center border-2 border-solid border-[#65f5ff] rounded-lg  p-4 '>
+      <div className='flex flex-col items-center border-2 border-solid border-[#65f5ff] rounded-lg  p-4 mb-12 '>
         <div className='flex flex-col items-center border-b-2 pb-6 w-11/12 border-[#65f5ff]'>
       <img src={props.titleIcon} className='flex w-11 h-11'/>
       <div className='text-center'>{props.title}</div>
