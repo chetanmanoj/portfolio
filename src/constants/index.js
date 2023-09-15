@@ -21,7 +21,9 @@ import {
   git,
   linux,
   aws,
-  firebase
+  firebase,
+  evlovxLogo,
+
 } from "../assets";
 
 export const navLinks = [
@@ -43,6 +45,7 @@ export const navLinks = [
   // },
 ];
 
+// SKILLS SECTION
 export const cardData = [
   {
     titleIcon: programmingIcon,
@@ -75,3 +78,23 @@ export const cardData = [
     items: ["Git", "Linux", "Amazon web services", "Firebase"],
   },
 ];
+
+// WORKS  SECTION
+export const caroItem = [
+  {
+    title:'SecureSpace',
+    description:'A smart security surveillance system'
+  },
+  {
+    title:'GYLT',
+    description:'Scheduling app built for students'
+  },
+  {
+    title:'EvolvX',
+    description:'Website to display information and registration details about the tech festival conducted in my college.'
+  },
+  {
+    title:'Display Clock',
+    description:'Customizable clock that can have a custom background and text for a specific times',
+  },
+]

@@ -36,7 +36,7 @@ const RealAbout = () => {
         className="h-full flex w-10/12 items-center justify-center mb-[5rem]"
       >
         <div className="flex flex-col items-center justify-center">
-          <span className="text-[3.5rem] font-bold text-[#65f5ff]">ABOUT ME</span>
+          <span className="text-[3.5rem] font-bold text-[#65f5ff] mt-16">ABOUT ME</span>
           <div className="w-10/12 flex flex-row mt-8">
             <p className="flex flex-1 text-[1.2rem] text-justify">
               Hello there! I'm Chetan Manoj, an aspiring web developer with a deep

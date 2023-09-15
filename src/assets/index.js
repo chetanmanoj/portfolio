@@ -23,6 +23,8 @@ import linux from './linux.svg'
 import aws from './aws.svg'
 import firebase from './firebase.svg'
 
+import evlovxLogo from './evolvxLogo.png'
+
 
 export {
     programmingIcon,
@@ -48,4 +50,6 @@ export {
     linux,
     aws,
     firebase,
+    evlovxLogo,
+
 }

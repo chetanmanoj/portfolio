@@ -63,7 +63,7 @@ const Skills = () => {
     className='h-full w-10/12'
     >
     <div className="flex flex-col items-center justify-center">
-        <span className="text-[3.5rem] font-bold text-[#65f5ff]">SKILLS</span>
+        <span className="text-[3.5rem] font-bold text-[#65f5ff] mt-16">SKILLS</span>
         <div className="w-10/12 flex flex-col mt-8">
         {cardData.map((cardData) => (
              <Card
