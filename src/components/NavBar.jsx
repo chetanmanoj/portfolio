@@ -3,13 +3,14 @@ import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 
+
 import { navLinks } from '../constants'
 
 const NavBar = () => {
   const[active, setActive] = useState('')
   
   return (
-    <motion.div className='bg-[#091b29] w-screen fixed h-[80px]  rounded-b-[35px] text-[19px] flex flex-row items-center justify-between'
+    <motion.div className='bg-[#091b29] w-screen fixed h-[80px] z-50 rounded-b-[35px] text-[19px] flex flex-row items-center justify-between'
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{duration:1}}

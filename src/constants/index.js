@@ -23,6 +23,9 @@ import {
   aws,
   firebase,
   evlovxLogo,
+  ssImage,
+  evolvximg,
+  dClock,
 
 } from "../assets";
 
@@ -35,10 +38,10 @@ export const navLinks = [
     id: "skills",
     title: "Skills",
   },
-  // {
-  //   id: "works",
-  //   title: "Works",
-  // },
+  {
+    id: "works",
+    title: "Works",
+  },
   // {
   //   id: "contact",
   //   title: "Contact",
@@ -83,18 +86,26 @@ export const cardData = [
 export const caroItem = [
   {
     title:'SecureSpace',
-    description:'A smart security surveillance system'
+    description:'A smart security surveillance system that can detect the presence of an intruder in the surveillance space and notify the user',
+    image: ssImage,
+    gitlink: 'https://github.com/orgs/Secure-Space/repositories'
   },
-  {
-    title:'GYLT',
-    description:'Scheduling app built for students'
-  },
+  // {
+  //   title:'GYLT',
+  //   description:'Scheduling app built for students',
+  //   image: evlovxLogo,
+  //   gitlink: ''
+  // },
   {
     title:'EvolvX',
-    description:'Website to display information and registration details about the tech festival conducted in my college.'
+    description:'Website for displaying information and registration details about the tech festival conducted in my college',
+    image: evolvximg,
+    gitlink: 'https://github.com/chetanmanoj/EvolvX_3D'
   },
   {
     title:'Display Clock',
-    description:'Customizable clock that can have a custom background and text for a specific times',
+    description:'Customizable clock that can have a custom background and text for a specific time set by the user',
+    image: dClock,
+    gitlink: 'https://github.com/chetanmanoj/clock-test'
   },
 ]

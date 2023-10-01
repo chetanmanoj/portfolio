@@ -24,6 +24,9 @@ import aws from './aws.svg'
 import firebase from './firebase.svg'
 
 import evlovxLogo from './evolvxLogo.png'
+import ssImage from './ssImage.png'
+import evolvximg from './evolvximg.png'
+import dClock from './dClock.png'
 
 
 export {
@@ -51,5 +54,7 @@ export {
     aws,
     firebase,
     evlovxLogo,
-
+    ssImage,
+    evolvximg,
+    dClock,
 }

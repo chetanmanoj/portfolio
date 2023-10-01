@@ -2,9 +2,10 @@ import React, {useState, useEffect} from 'react'
 import {motion} from 'framer-motion'
 import {FaGithub, FaLinkedinIn, FaEnvelope} from 'react-icons/fa'
 
+
 const About = () => {
 
-  const headlines = ['COMPUTER SCIENCE ENGINEER', 'WEB DEVELOPER']
+  const headlines = ['COMPUTER SCIENCE ENGINEER', 'SOFTWARE DEVELOPER']
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const[currentHead,setCurrentHead] = useState(headlines[currentIndex])

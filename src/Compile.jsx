@@ -6,10 +6,30 @@ import Skills from "./sections/Skills";
 import Works from "./sections/Works";
 import Contact from "./sections/Contact";
 
+import { useMediaQuery } from 'react-responsive'
+
 function Compile() {
+  const isMobile= useMediaQuery({
+    query: '(max-width: 900px)'
+  })
+  if(!isMobile){
   return (
     <div className="h-full w-full bg-[#091b29]">
       <NavBar />
+      <div className="flex flex-col justify-center items-center">
+        <About />
+        <RealAbout />
+        <Skills />
+        <Works />
+        {/* <Contact /> */}
+      </div>
+    </div>
+  );
+}
+else{
+  return (
+    <div className="h-full w-full bg-[#091b29]">
+      {/* <NavBar /> */}
       <div className="flex flex-col justify-center items-center">
         <About />
         <RealAbout />
@@ -19,6 +39,7 @@ function Compile() {
       </div>
     </div>
   );
+}
 }
 
 export default Compile;
