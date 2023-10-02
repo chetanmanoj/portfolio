@@ -22,8 +22,8 @@ import {
   linux,
   aws,
   firebase,
-  evlovxLogo,
   ssImage,
+  gylt,
   evolvximg,
   dClock,
 
@@ -90,12 +90,12 @@ export const caroItem = [
     image: ssImage,
     gitlink: 'https://github.com/orgs/Secure-Space/repositories'
   },
-  // {
-  //   title:'GYLT',
-  //   description:'Scheduling app built for students',
-  //   image: evlovxLogo,
-  //   gitlink: ''
-  // },
+  {
+    title:'GYLT',
+    description:`Scheduling app built for students with the aim of simplifying the scheduling and completion of the user's daily tasks`,
+    image: gylt,
+    gitlink: ''
+  },
   {
     title:'EvolvX',
     description:'Website for displaying information and registration details about the tech festival conducted in my college',
