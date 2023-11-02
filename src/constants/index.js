@@ -22,6 +22,7 @@ import {
   linux,
   aws,
   firebase,
+  postgresql,
   ssImage,
   gylt,
   evolvximg,
@@ -71,14 +72,14 @@ export const cardData = [
   {
     titleIcon: backendIcon,
     title: "BACK-END DEVELOPMENT",
-    itemIcon: [node,express,mongodb],
-    items: ["Node js","Express", "MongoDB"],
+    itemIcon: [node,express,mongodb, postgresql],
+    items: ["Node js","Express", "MongoDB", "PostgreSQL"],
   },
   {
     titleIcon: toolIcon,
     title: "TOOLS AND SERVICES",
     itemIcon: [git,linux,aws,firebase],
-    items: ["Git", "Linux", "Amazon web services", "Firebase"],
+    items: ["Git", "Linux", "Amazon Web Services", "Firebase"],
   },
 ];
 

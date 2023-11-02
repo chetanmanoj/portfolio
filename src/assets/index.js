@@ -22,6 +22,7 @@ import git from './git.svg'
 import linux from './linux.svg'
 import aws from './aws.svg'
 import firebase from './firebase.svg'
+import postgresql from './postgresql.svg'
 
 
 import ssImage from './ssImage.png'
@@ -55,6 +56,7 @@ export {
     linux,
     aws,
     firebase,
+    postgresql,
     ssImage,
     gylt,
     evolvximg,
