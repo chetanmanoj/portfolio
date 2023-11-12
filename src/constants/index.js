@@ -14,6 +14,7 @@ import {
   mongodb,
   react,
   reactn,
+  next,
   html,
   css,
   tailwind,
@@ -66,8 +67,8 @@ export const cardData = [
   {
     titleIcon: frontendIcon,
     title: "FRONT-END DEVELOPMENT",
-    itemIcon: [html, css, tailwind, sass, react,reactn],
-    items: ["HTML", "CSS", "Tailwind CSS", "SASS", "React", "React Native"],
+    itemIcon: [html, css, react, next, reactn, tailwind, sass, ],
+    items: ["HTML", "CSS", "React", "Next.js", "React Native", "Tailwind CSS", "SASS",],
   },
   {
     titleIcon: backendIcon,

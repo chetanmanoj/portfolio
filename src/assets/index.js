@@ -14,6 +14,7 @@ import node from './nodejs.svg'
 import express from './express.svg'
 import react from './react.svg'
 import reactn from './reactn.svg'
+import next from './next.svg'
 import html from './html.svg'
 import css from './css.svg'
 import tailwind from './tailwind.svg'
@@ -61,4 +62,5 @@ export {
     gylt,
     evolvximg,
     dClock,
+    next,
 }
