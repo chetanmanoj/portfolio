@@ -33,7 +33,12 @@ const Card = (
     else{
       return(
         <motion.div 
+        initial={{ opacity: 0, x:-50 }}
+          whileInView={{ opacity: 1, x:0 }}
+          transition={{duration:0.8}}
+          viewport={{ once: true }}
           whileHover={{boxShadow:"0px 0px 15px rgb(101,245,255)",
+          
           // scale:1.02
         }}
           className='flex flex-row border-2 border-solid border-[#65f5ff] rounded-lg p-4 mb-12'>
@@ -59,9 +64,13 @@ const Card = (
 const Skills = () => {
     
   return (
-    <section 
+    <motion.section 
     id='skills'
     className='h-full w-10/12'
+    initial={{ opacity: 0, x:-50 }}
+          whileInView={{ opacity: 1, x:0 }}
+          transition={{duration:0.8}}
+          viewport={{ once: true }}
     >
     <div className="flex flex-col items-center justify-center">
         <span className="text-[3.5rem] font-bold text-[#65f5ff] mt-16">SKILLS</span>
@@ -78,7 +87,7 @@ const Skills = () => {
         
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

@@ -27,8 +27,8 @@ const About = () => {
 
     id='home' 
     className='bg-transparent w-10/12 flex h-[37.5rem] mt-[6.1rem] mb-16'
-    initial={{opacity:0, x:-150}}
-    animate={{opacity:1, x:0}}
+    initial={{opacity:0, y:80}}
+    animate={{opacity:1, y:0}}
     transition={{duration:1}}
     >
         <div className='flex flex-1 items-center justify-center flex-col'>

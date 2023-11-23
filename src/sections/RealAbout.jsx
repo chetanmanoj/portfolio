@@ -1,5 +1,6 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive'
+import {motion} from 'framer-motion'
 
 const RealAbout = () => {
   const isMobile= useMediaQuery({
@@ -31,9 +32,13 @@ const RealAbout = () => {
   }
   else{
     return (
-      <section
+      <motion.section
         id="about"
         className="h-full flex w-10/12 items-center justify-center mb-[5rem]"
+        initial={{ opacity: 0, x:-50 }}
+          whileInView={{ opacity: 1, x:0 }}
+          transition={{duration:0.8}}
+          viewport={{ once: true }}
       >
         <div className="flex flex-col items-center justify-center">
           <span className="text-[3.5rem] font-bold text-[#65f5ff] mt-16">ABOUT ME</span>
@@ -47,12 +52,9 @@ const RealAbout = () => {
               I value the unique visions of my clients and strive to translate them into digital realities 
               and work hard in collaborating with my team mates to deliver the best output.
             </p>
-            {/* <div className="flex flex-1">
-              fdasf
-            </div> */}
           </div>
         </div>
-      </section>
+      </motion.section>
     );
   }
 };
