@@ -30,6 +30,8 @@ import ssImage from './ssImage.png'
 import gylt from './gylt.png'
 import evolvximg from './evolvximg.png'
 import dClock from './dClock.png'
+import jobsapply from './JobsApply.png'
+import taza from './taza.png'
 
 
 
@@ -63,4 +65,6 @@ export {
     evolvximg,
     dClock,
     next,
+    jobsapply,
+    taza,
 }

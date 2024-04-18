@@ -28,6 +28,8 @@ import {
   gylt,
   evolvximg,
   dClock,
+  jobsapply,
+  taza,
 
 } from "../assets";
 
@@ -113,5 +115,17 @@ export const caroItem = [
     description:'Customizable clock that can have a custom background and text for a specific time set by the user',
     image: dClock,
     gitlink: 'https://github.com/chetanmanoj/clock-test'
+  },
+  {
+    title:'JobsApply',
+    description:'A dynamic job application platform that seamlessly integrates Adzuna.com\'s extensive job listings, providing users with up-to-date and relevant job opportunities.',
+    image: jobsapply,
+    gitlink: 'https://github.com/chetanmanoj/jobsapply'
+  },
+  {
+    title:'Taza Restaurant',
+    description:'An information website for Taza Restaurant situated in Dubai, UAE ',
+    image: taza,
+    gitlink: 'https://www.restauranttaza.com/'
   },
 ]

@@ -11,7 +11,7 @@ const CaroItem = ({item}) => {
     >
     <motion.div className='flex flex-col h-[14.7rem] overflow-hidden w-[25rem] border-4 border-solid border-[#65f5ff] rounded-lg p-2 text-center items-center'
         onClick={()=>window.open(item.gitlink)}
-        whileHover={{height:'23.5rem',  transition: { duration: 0.5 } }}
+        whileHover={{height:'24rem',  transition: { duration: 0.5 } }}
     >
       {/* 26.5rem */}
         <div className='h-8/12'>
