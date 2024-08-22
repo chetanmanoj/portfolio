@@ -24,7 +24,8 @@ import linux from './linux.svg'
 import aws from './aws.svg'
 import firebase from './firebase.svg'
 import postgresql from './postgresql.svg'
-
+import php from './php.svg'
+import laravel from './laravel.svg'
 
 import ssImage from './ssImage.png'
 import gylt from './gylt.png'
@@ -60,6 +61,7 @@ export {
     aws,
     firebase,
     postgresql,
+    laravel,
     ssImage,
     gylt,
     evolvximg,
@@ -67,4 +69,5 @@ export {
     next,
     jobsapply,
     taza,
+    php,
 }

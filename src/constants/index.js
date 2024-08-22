@@ -6,6 +6,7 @@ import {
   toolIcon,
   c,
   python,
+  laravel,
   js,
   canva,
   figma,
@@ -22,6 +23,7 @@ import {
   git,
   linux,
   aws,
+  php,
   firebase,
   postgresql,
   ssImage,
@@ -61,8 +63,8 @@ export const cardData = [
   {
     titleIcon: programmingIcon,
     title: "PROGRAMMING LANGUAGES",
-    itemIcon: [c, python, js],
-    items: ["C", "Python", "Javascript"],
+    itemIcon: [c, python, js, php],
+    items: ["C", "Python", "Javascript", "PHP"],
   },
   {
     titleIcon: designIcon,
@@ -79,8 +81,8 @@ export const cardData = [
   {
     titleIcon: backendIcon,
     title: "BACK-END DEVELOPMENT",
-    itemIcon: [node,express,mongodb, postgresql],
-    items: ["Node js","Express", "MongoDB", "PostgreSQL"],
+    itemIcon: [node,express,mongodb, postgresql, laravel],
+    items: ["Node js","Express", "MongoDB", "PostgreSQL", "Laravel"],
   },
   {
     titleIcon: toolIcon,
