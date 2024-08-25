@@ -26,6 +26,7 @@ import firebase from './firebase.svg'
 import postgresql from './postgresql.svg'
 import php from './php.svg'
 import laravel from './laravel.svg'
+import ms from './ms.svg'
 
 import ssImage from './ssImage.png'
 import gylt from './gylt.png'
@@ -73,4 +74,5 @@ export {
     taza,
     php,
     chet,
+    ms,
 }

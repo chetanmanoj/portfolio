@@ -32,7 +32,7 @@ import {
   dClock,
   jobsapply,
   taza,
-
+  ms,
 } from "../assets";
 
 export const navLinks = [
@@ -75,59 +75,72 @@ export const cardData = [
   {
     titleIcon: frontendIcon,
     title: "FRONT-END DEVELOPMENT",
-    itemIcon: [html, css, react, next, reactn, tailwind, sass, ],
-    items: ["HTML", "CSS", "React", "Next.js", "React Native", "Tailwind CSS", "SASS",],
+    itemIcon: [html, css, react, next, reactn, tailwind, sass],
+    items: [
+      "HTML",
+      "CSS",
+      "React",
+      "Next.js",
+      "React Native",
+      "Tailwind CSS",
+      "SASS",
+    ],
   },
   {
     titleIcon: backendIcon,
     title: "BACK-END DEVELOPMENT",
-    itemIcon: [node,express,mongodb, postgresql, laravel],
-    items: ["Node js","Express", "MongoDB", "PostgreSQL", "Laravel"],
+    itemIcon: [node, express, mongodb, postgresql, laravel],
+    items: ["Node js", "Express", "MongoDB", "PostgreSQL", "Laravel"],
   },
   {
     titleIcon: toolIcon,
     title: "TOOLS AND SERVICES",
-    itemIcon: [git,linux,aws,firebase],
-    items: ["Git", "Linux", "AWS", "Firebase"],
+    itemIcon: [git, ms, aws, linux, firebase],
+    items: ["Git", "MS Office", "AWS", "Linux", "Firebase"],
   },
 ];
 
 // WORKS  SECTION
 export const caroItem = [
   {
-    title:'SecureSpace',
-    description:'A smart security surveillance system that can detect the presence of an intruder in the surveillance space and notify the user',
+    title: "SecureSpace",
+    description:
+      "A smart security surveillance system that can detect the presence of an intruder in the surveillance space and notify the user",
     image: ssImage,
-    gitlink: 'https://github.com/orgs/Secure-Space/repositories'
+    gitlink: "https://github.com/orgs/Secure-Space/repositories",
   },
   {
-    title:'GYLT',
-    description:`Scheduling app built for students with the aim of simplifying the scheduling and completion of the user's daily tasks`,
+    title: "GYLT",
+    description: `Scheduling app built for students with the aim of simplifying the scheduling and completion of the user's daily tasks`,
     image: gylt,
-    gitlink: ''
+    gitlink: "",
   },
   {
-    title:'EvolvX',
-    description:'Website for displaying information and registration details about the tech festival conducted in my college',
+    title: "EvolvX",
+    description:
+      "Website for displaying information and registration details about the tech festival conducted in my college",
     image: evolvximg,
-    gitlink: 'https://github.com/chetanmanoj/EvolvX_3D'
+    gitlink: "https://github.com/chetanmanoj/EvolvX_3D",
   },
   {
-    title:'Display Clock',
-    description:'Customizable clock that can have a custom background and text for a specific time set by the user',
+    title: "Display Clock",
+    description:
+      "Customizable clock that can have a custom background and text for a specific time set by the user",
     image: dClock,
-    gitlink: 'https://github.com/chetanmanoj/clock-test'
+    gitlink: "https://github.com/chetanmanoj/clock-test",
   },
   {
-    title:'JobsApply',
-    description:'A dynamic job application platform that seamlessly integrates Adzuna.com\'s extensive job listings, providing users with up-to-date and relevant job opportunities.',
+    title: "JobsApply",
+    description:
+      "A dynamic job application platform that seamlessly integrates Adzuna.com's extensive job listings, providing users with up-to-date and relevant job opportunities.",
     image: jobsapply,
-    gitlink: 'https://github.com/chetanmanoj/jobsapply'
+    gitlink: "https://github.com/chetanmanoj/jobsapply",
   },
   {
-    title:'Taza Restaurant',
-    description:'An information website for Taza Restaurant situated in Dubai, UAE ',
+    title: "Taza Restaurant",
+    description:
+      "An information website for Taza Restaurant situated in Dubai, UAE ",
     image: taza,
-    gitlink: 'https://www.restauranttaza.com/'
+    gitlink: "https://www.restauranttaza.com/",
   },
-]
+];
