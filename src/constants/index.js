@@ -88,7 +88,7 @@ export const cardData = [
     titleIcon: toolIcon,
     title: "TOOLS AND SERVICES",
     itemIcon: [git,linux,aws,firebase],
-    items: ["Git", "Linux", "Amazon Web Services", "Firebase"],
+    items: ["Git", "Linux", "AWS", "Firebase"],
   },
 ];
 

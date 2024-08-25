@@ -34,6 +34,8 @@ import dClock from './dClock.png'
 import jobsapply from './JobsApply.png'
 import taza from './taza.png'
 
+import chet from './chetava.png'
+
 
 
 export {
@@ -70,4 +72,5 @@ export {
     jobsapply,
     taza,
     php,
+    chet,
 }
