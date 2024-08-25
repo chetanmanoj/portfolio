@@ -36,7 +36,7 @@ const RealAbout = () => {
     return (
       <section
         id="about"
-        className="h-full flex w-10/12 items-center justify-center mb-[5rem]"
+        className="h-full flex w-9/12 items-center justify-center mb-[5rem]"
         
       >
         <motion.div

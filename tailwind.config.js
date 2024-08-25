@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      tab: "450px",
+      desk: "1350px",
+    },
   },
   plugins: [],
 }
