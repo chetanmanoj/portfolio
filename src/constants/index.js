@@ -108,12 +108,14 @@ export const caroItem = [
       "A smart security surveillance system that can detect the presence of an intruder in the surveillance space and notify the user",
     image: ssImage,
     gitlink: "https://github.com/orgs/Secure-Space/repositories",
+    disabled: false,
   },
   {
     title: "GYLT",
     description: `Scheduling app built for students with the aim of simplifying the scheduling and completion of the user's daily tasks`,
     image: gylt,
     gitlink: "",
+    disabled: true,
   },
   {
     title: "EvolvX",
@@ -121,6 +123,7 @@ export const caroItem = [
       "Website for displaying information and registration details about the tech festival conducted in my college",
     image: evolvximg,
     gitlink: "https://github.com/chetanmanoj/EvolvX_3D",
+    disabled: false,
   },
   {
     title: "Display Clock",
@@ -128,6 +131,7 @@ export const caroItem = [
       "Customizable clock that can have a custom background and text for a specific time set by the user",
     image: dClock,
     gitlink: "https://github.com/chetanmanoj/clock-test",
+    disabled: false,
   },
   {
     title: "JobsApply",
@@ -135,12 +139,15 @@ export const caroItem = [
       "A dynamic job application platform that seamlessly integrates Adzuna.com's extensive job listings, providing users with up-to-date and relevant job opportunities.",
     image: jobsapply,
     gitlink: "https://github.com/chetanmanoj/jobsapply",
+    disabled: false,
   },
   {
     title: "Taza Restaurant",
     description:
       "An information website for Taza Restaurant situated in Dubai, UAE ",
     image: taza,
-    gitlink: "https://www.restauranttaza.com/",
+    // gitlink: "https://www.restauranttaza.com/",
+    gitlink: "",
+    disabled: true,
   },
 ];

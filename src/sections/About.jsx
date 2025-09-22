@@ -49,6 +49,7 @@ const About = () => {
               border: "1px solid white",
               scale: 1.05,
             }}
+            disabled
           >
             View My CV
           </motion.button>
